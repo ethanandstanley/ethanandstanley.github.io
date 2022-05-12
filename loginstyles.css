@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+body {
+	background-image:  url(./background.JPG);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	color:lightblue;
+}
+
+input {
+    margin-top: 8%;
+    margin-bottom: 7%;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: small;
+    text-align: center;
+    width: 70%;
+}
+
+.box {
+	border-radius: 3px;
+	background: rgba(101, 101, 101, 0.7);
+    padding: 6px 8px 15px;
+    width: 25%;
+    height: 15%;
+    margin-left: 36vw;
+    margin-top: -30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.lightbox {
+	zoom: 1.5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(10, 10, 10, 0.8);
+	text-align: center;
+	margin: auto;
+}
+
+div.horizontal {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
+
+div.vertical {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+::-webkit-input-placeholder {
+   color: lightblue;
+   font-family: "Poppins";
+   font-size: small;
+   text-align: center;
+}
+
+::-moz-placeholder {
+   color: lightblue;
+   font-family: "Poppins";
+   font-size: small;
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   color: lightblue;
+   font-family: "Poppins";
+   font-size: small;
+   text-align: center;
+}
+
+#loginbutton {
+      font-family: "Poppins";
+      font-size: small;
+}
